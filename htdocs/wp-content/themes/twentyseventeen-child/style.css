@@ -1,0 +1,118 @@
+/*
+ Theme Name:   Twenty Seventeen Child
+ Version:      1.0.0
+ Template: twentyseventeen
+*/
+
+.footer-contacts {
+    float: right;
+    max-width: 50%;
+}
+
+.footer-button {
+    background-color: #222;
+    border: 0;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 800;
+    line-height: 1;
+    padding: 1em 2em;
+    text-shadow: none;
+    -webkit-transition: background 0.2s;
+    transition: background 0.2s;
+    margin-top: 5px;
+}
+
+.footer-button:hover {
+    background: #767676;
+    color: white;
+}
+
+[dir="rtl"] .woocommerce #content div.product div.images,[dir="rtl"] .woocommerce div.product div.images,[dir="rtl"] .woocommerce-page #content div.product div.images,[dir="rtl"] .woocommerce-page div.product div.images {
+    float: left;
+}
+
+[dir="rtl"] .woocommerce-product-gallery__trigger {
+    left: auto;
+    right: 1em;
+}
+
+[dir="rtl"] .woocommerce #content div.product div.summary, [dir="rtl"] .woocommerce div.product div.summary, [dir="rtl"] .woocommerce-page #content div.product div.summary, [dir="rtl"] .woocommerce-page div.product div.summary {
+    float: right;
+}
+
+[dir="rtl"] .flex-viewport {
+    margin-bottom: 10px;
+}
+
+[dir="rtl"] .woocommerce-loop-product__title {
+	direction: initial;
+}
+
+.single_add_to_cart_button {
+    padding: 0.77em 1.5em;
+}
+
+form.cart {
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 48em) {
+	.mobile-visible {
+		display: none!important;
+	}
+	
+	[dir="rtl"] .has-sidebar #primary {
+		float: right;
+	}
+
+	[dir="rtl"] .has-sidebar #secondary {
+		float: left;
+	}
+	
+	.widget_product_search form button[type=submit] {
+		position: absolute;
+		right: 4px;
+		top: 4px;	
+		padding: 8px 16px;
+	}
+	
+	[dir="rtl"] .widget_product_search form button[type=submit] {
+		position: absolute;
+		left: 4px;
+		top: 4px;	
+		padding: 8px 16px;
+	}
+}
+
+@media screen and (max-width: 48em) {	
+	.mobile-hidden {
+		display: none!important;
+	}
+	
+	.footer-contacts {
+		float: left;
+		width: 100%;
+		max-width: 100%;
+		text-align: center;
+	}
+
+	.footer-contacts a {
+		display: block;
+		max-width: 280px;
+		margin-bottom: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.site-info {
+		text-align: center;
+	}
+}
